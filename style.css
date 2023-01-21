@@ -151,6 +151,7 @@ h1 {
     }
     .box-comm {
         height: 80%;
+        min-height: 225px;
     }
     .sus {
         align-self: flex-start;
