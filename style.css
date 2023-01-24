@@ -1,5 +1,5 @@
 .attribution {
-        font-size: 11px;
+        font-size: 0.8rem;
         text-align: center;
       }
       .attribution a {
@@ -22,6 +22,7 @@ h1 {
     font-weight: 700;
     font-size: 2.5rem;
     margin-top: 4rem;
+    max-width: 270px;
 }
 .intro {
     font-weight: 500;
@@ -60,6 +61,9 @@ h1 {
     border-radius: 10px;
     display: grid;
     gap: .7rem;
+}
+blockquote {
+    margin: 0;
 }
 .nume,
 .recenzie {
@@ -109,7 +113,7 @@ h1 {
     }
 
     h1 {
-        font-size: 4rem;
+        
     }
 
     .titlu-despre,
@@ -119,6 +123,7 @@ h1 {
 
     .titlu-despre h1 {
         text-align: left;
+        margin: 0;
     }
     .intro {
         text-align: left;
@@ -150,8 +155,9 @@ h1 {
         align-items: center;
     }
     .box-comm {
-        height: 80%;
-        min-height: 225px;
+        height: 90%;
+        padding: 2rem;
+        min-height: 225px;  
     }
     .sus {
         align-self: flex-start;
@@ -159,4 +165,5 @@ h1 {
     .jos {
         align-self: flex-end;
     }
+   
 }
